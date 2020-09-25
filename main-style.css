@@ -1,0 +1,145 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+nav {
+	display: flex;
+	min-height: 8vh;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: black;
+}
+
+.logo {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.title {
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+	padding-left: 15px;
+}
+
+.logoImg{
+	width: 100px;
+	border-radius: 10px;
+}
+
+
+.dropdown {
+	margin-left: auto;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #e12929;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	right: 0px;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+.fas {
+    color: white;
+    font-size: 1.4rem;
+    margin-right: .8rem;
+    display: inline-block;
+    width: 30px;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+}
+
+.footer {
+	background: black;
+	color: grey;
+	height: 130px;
+/*	position: absolute;*/
+	bottom: 0;
+	width: 100%;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: space-around;
+	font-size: 16px;
+}
+
+.footer-bottom {
+	/*position: fixed;*/
+	bottom: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.fHeader {
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase;
+
+}
+
+
+@media only screen and (max-width: 650px) {
+  .title {
+    display: none;
+  }
+
+  .footer {
+  	height: 150px;
+  }
+
+  .fHeader {
+  	font-size: 16px;
+  }
+
+  .footer-content {
+  	flex-wrap: wrap;
+  	font-size: 12px;
+  }
+
+  .footer-bottom {
+  	font-size: 12px;
+  }
+
+}
