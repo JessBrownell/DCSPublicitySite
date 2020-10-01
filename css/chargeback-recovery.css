@@ -37,6 +37,19 @@
 	padding: 0 10px;
 }
 
+.col25 {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+
+.col75 {
+	float: left;
+	width: 75%;
+	padding: 0 10px;
+}
+
+
 
 .col {
 	float: left;
@@ -80,6 +93,18 @@
 	}
 
 	.col5 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col25 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col75 {
 		width: 100%;
 		display: block;
 		margin-bottom: 20px;
@@ -159,6 +184,44 @@ button {
     padding-left: 5px;
     padding-bottom: 10px;
 }
+
+.icon-tru {
+    color: #e12929;
+    font-size: 3rem;
+    margin-right: .8rem;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.icon-truT {
+    color: #e12929;
+    font-size: 3rem;
+    margin-right: .8rem;
+    display: inline-block;
+    width: 150px;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+.truImages {
+    color: #e12929;
+    font-size: 3rem;
+    margin-right: .8rem;
+    margin-left: .8rem;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    top: 2px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
 
 input[type=text], select, textarea {
   width: 100%;
