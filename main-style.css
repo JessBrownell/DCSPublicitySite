@@ -93,19 +93,21 @@ nav {
 .footer {
 	background: black;
 	color: grey;
-	height: 130px;
 /*	position: absolute;*/
 	bottom: 0;
 	width: 100%;
+	margin: 0;
 }
 
 .footer-content {
+	background: black;
 	display: flex;
 	justify-content: space-around;
 	font-size: 16px;
 }
 
 .footer-bottom {
+	background: black;
 	/*position: fixed;*/
 	bottom: 0;
 	text-align: center;
@@ -116,7 +118,6 @@ nav {
 	font-size: 20px;
 	color: white;
 	text-transform: uppercase;
-
 }
 
 
