@@ -56,6 +56,8 @@ min-height: 450px;
 	padding: 0 10px;
 }
 
+
+
 .row {
 	margin: 0 -5px;
 	padding-top: 30px;
@@ -139,7 +141,7 @@ input[type=submit] {
 }
 
 .infoMain {
-  height: 700px;
+  height: 100%;
   position: relative;
 }
 
@@ -161,3 +163,6 @@ input[type=submit] {
   left: 10%;
   position: absolute
 }
+
+
+

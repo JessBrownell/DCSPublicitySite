@@ -57,6 +57,7 @@
 	padding: 0 10px;
 }
 
+
 .col3 {
 	float: left;
 	width: 33%;
@@ -268,5 +269,26 @@ input[type=submit] {
 	font-family: GothamBold;
 }
 
+.error {
+	color: #FF0000;
+	font-family: ABeeZee;
+}
 
 
+
+
+
+.colT {
+	display: table-cell;
+	height: 100%;
+	padding: 10px;
+	width: 25%;
+}
+
+
+.table {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	height: 100%;
+}

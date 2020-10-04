@@ -27,72 +27,52 @@
 					<a href="tru-support.html">Tru-Support</a>
 					<a href="tru-review.html">Tru-Review</a>
 					<a href="blog.html">Blog</a>
-					<a href="book-a-demo.html">Book a Demo</a>
-					<a href="contact-us.html">Contact Us</a>
+					<a href="book-a-demo.php">Book a Demo</a>
+					<a href="contact-us.php">Contact Us</a>
 				</div>
 			</div>
 		</nav>
 
 		<div class="heading-section">
-			<h4>GET IN TOUCH</h4>
-			<h6 style="color: grey">Want to get in touch? We'd love to hear from you! Here's how you can reach us.</h6>
+			<h4>SEE THE TRU-SUITE IN ACTION</h4>
+			<h6 style="color: grey">Book a 10 Minute Demo Today</h6>
 		</div>
 
-		<div class="section" id="top" style="min-height: 200px">
-			<div class="row">
-				<div class="col3">
-					<div class="card" style="text-align: center; min-height: 200px;">
-						<p><i class="icon fas fa-envelope-open"></i></p>
-						<h3>EMAIL</h3>
-						<p>info@dealerchargeback.com</p>
-					</div>
-				</div>
-
-				<div class="col3">
-					<div class="card" style="text-align: center; min-height: 200px;">
-						<p><i class="icon fas fa-phone"></i></p>
-						<h3>PHONE</h3>
-						<p>1 (800) 280 2028</p>
-					</div>
-				</div>
-
-				<div class="col3">
-					<div class="card" style="text-align: center; min-height: 200px;">
-						<p><i class="icon fas fa-compass"></i></i></p>
-						<h3>LOCATION</h3>
-						<p>9595 Wilshire Boulevard</p>
-						<p>Suite 900 –751</p>
-						<p>Beverly Hills, CA, 90212</p>
-					</div>
-				</div>
-			</div>		
+		<div class="top" style="text-align: center;background-color: #f9f9f9;min-height: 200px;">
+			<h4 class="keyTitle">Find Out How Much Cash Your Dealership Can Recover</h4>
+			<p  style="margin: 10px 20px; font-weight: bold; color: #e12929" >Demos Are For Dealer Principals Or General Managers Only. 
+			</p>
+			<p style="margin: 10px 20px;">If you are booking a demo for your Dealer Principal Or General Manager they must be present for the demo</p>
+			<p  style="margin: 10px 20px;">Please fill out the form below with Dealer Principals or General Managers Info</p>
 		</div>
+
+		<?php include('validate.php'); ?>
 
 		<div class="section" id="middle">
-			<h4 class="keyTitle">CONTACT FORM</h4>
-			<form action="/action_page.php">
+			<h4 class="keyTitle">REQUEST A DEMO</h4>
+			<form id="form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 				<div class="card" style="width: 80%; margin-left: auto; margin-right: auto;">
 					<div class="row">
 						<div class="col" style="width: 100%">
-							<label for="company">Dealership</label>
-							<input type="text" id="dealership" name="dealership" placeholder="Dealership">
+							<label for="company">Dealership</label> <span class="error">* <?php echo $errors['dealerErr'];?></span>
+							<input type="text" id="Dealership" name="Dealership" placeholder="Dealership" value="<?php echo $Dealership?>">
 
-							<label for="fname">First Name</label>
-							<input type="text" id="fname" name="firstname" placeholder="First"><br>
+							<label for="fname">First Name</label> <span class="error">* <?php echo $errors['firstErr'];?></span>
+							<input type="text" id="First" name="First" placeholder="First" value="<?php echo $First?>"><br>
 
-							<label for="lname">Last Name</label>
-							<input type="text" id="lname" name="lastname" placeholder="Last"><br>
+							<label for="lname">Last Name</label> <span class="error">* <?php echo $errors['lastErr'];?></span>
+							<input type="text" id="Last" name="Last" placeholder="Last" value="<?php echo $Last?>"><br>
 
-							<label for="email">Email</label>
-							<input type="text" id="email" name="email" placeholder="Email">
+							<label for="email">Email</label> <span class="error">* <?php echo $errors['emailErr'];?></span>
+							<input type="text" id="Email" name="Email" placeholder="Email" value="<?php echo $Email?>">
 
-							<label for="phone">Phone</label>
-							<input type="text" id="phone" name="phone" placeholder="Phone">
+							<label for="phone">Phone</label> <span class="error">* <?php echo $errors['phoneErr'];?></span>
+							<input type="text" id="Phone" name="Phone" placeholder="Phone" value="<?php echo $Phone?>">
 						</div>
 						
 						<div class="col" style="width: 100%">
 							<label for="Comment">Comment</label><br>
-							<textarea id="comment" name="comment" style="height:200px"></textarea>	
+							<textarea id="Comment" name="Comment" style="height:200px" value="<?php echo $Comment?>"></textarea>	
 						</div>
 						<input type="submit" value="Submit">	
 					</div>
@@ -114,8 +94,8 @@
 			</div>
 			<div class="about">
 				<p class="fHeader">About</p>
-				<a href="book-a-demo.html">Book a Demo</a><br>
-				<a href="contact-us.html">Contact Us</a>
+				<a href="book-a-demo.php">Book a Demo</a><br>
+				<a href="contact-us.php">Contact Us</a>
 			</div>
 			<div class="address">
 				<p class="fHeader">Dealer Chargeback Solutions - D.C.S</p>
