@@ -75,6 +75,21 @@
 	clear: both;
 }
 
+@media only screen and (max-width: 1340px) {
+	.col25 {
+		text-align: center;
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col75 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
 @media only screen and (max-width: 650px) {
 	.heading-section {
 		font-size: 20px;
@@ -244,7 +259,14 @@ input[type=submit] {
   float: right;
 }
 
+@font-face {
+  font-family: GothamBold;
+  src: url(../fonts/GothamBold/GothamBold.otf);
+}
 
+#truFont {
+	font-family: GothamBold;
+}
 
 
 
