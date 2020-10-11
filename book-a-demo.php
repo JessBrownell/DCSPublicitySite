@@ -22,9 +22,9 @@
 				</button>
 				<div class="dropdown-content">
 					<a href="index.html">Home</a>
-					<a href="tru-defend.html">Tru-Defend</a>
-					<a href="tru-time.html">Tru-Time</a>
 					<a href="tru-support.html">Tru-Support</a>
+					<a href="tru-time.html">Tru-Time</a>
+					<a href="tru-defend.html">Tru-Defend</a>
 					<a href="tru-review.html">Tru-Review</a>
 					<a href="blog.html">Blog</a>
 					<a href="book-a-demo.php">Book a Demo</a>
@@ -87,9 +87,9 @@
 		<div class="footer-content">
 			<div class="services">
 				<p class="fHeader">Services</p>
-				<a href="tru-defend.html">Tru-Defend</a><br>
-				<a href="tru-time.html">Tru-Time</a><br>
 				<a href="tru-support.html">Tru-Support</a><br>
+				<a href="tru-time.html">Tru-Time</a><br>
+				<a href="tru-defend.html">Tru-Defend</a><br>
 				<a href="tru-review.html">Tru-Review</a><br>
 			</div>
 			<div class="about">
@@ -105,7 +105,7 @@
 			</div>
 		</div>
 		<div class="footer-bottom">
-			<p>Dealer Chargeback Services - 2020</p>
+			<p>Dealer Chargeback Solutions - 2020</p>
 		</div>
 	</div>
 </html>

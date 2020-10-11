@@ -76,72 +76,6 @@
 	clear: both;
 }
 
-@media only screen and (max-width: 1340px) {
-	.col25 {
-		text-align: center;
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.col75 {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-}
-
-@media only screen and (max-width: 650px) {
-	.heading-section {
-		font-size: 20px;
-		padding-top: 55px;
-	}
-	.col {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.col3 {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.col5 {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.col25 {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.col75 {
-		width: 100%;
-		display: block;
-		margin-bottom: 20px;
-	}
-
-	.section h3 {
-		font-size: 16px;
-	}
-
-	.keyTitle {
-		font-size: 16px;
-	}
-
-	.section p {
-		font-size: 12px;
-	}
-
-	.card {
-		min-height: 200px;
-	}
-}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -291,4 +225,79 @@ input[type=submit] {
 	width: 100%;
 	table-layout: fixed;
 	height: 100%;
+}
+
+
+@media only screen and (max-width: 1340px) {
+	.col25 {
+		text-align: center;
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col75 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.heading-section {
+		font-size: 20px;
+		padding-top: 55px;
+	}
+	.col {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col3 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col5 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col25 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.col75 {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+
+	.table,
+	.colT {
+		display: block;
+		padding: 10px;
+		width: 100%;
+	}
+
+	.section h3 {
+		font-size: 16px;
+	}
+
+	.keyTitle {
+		font-size: 16px;
+	}
+
+	.section p {
+		font-size: 12px;
+	}
+
+	.card {
+		min-height: 200px;
+	}
 }
